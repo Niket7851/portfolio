@@ -1,0 +1,13 @@
+.main{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(rgba(17, 4, 51, 0.644), rgba(17, 4, 51, 0.644)),  
+            url("../src/Background1.jpg");
+
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  
+}
