@@ -15,9 +15,9 @@ const Introduction = () => {
         });
       }, []);
   return (
-    <div className='intro flex flex-col md:flex-row items-center justify-between w-full px-10 gap-8 text-blue-300 m-14 p-14 min-h-screen'>
-      <div className='w-1/3 flex flex-col' data-aos="zoom-y-out">
-        <img src={image} alt='' className='w-full h-auto object-cover rounded-lg'></img>
+    <div className='intro flex flex-col md:flex-row items-center justify-between w-full px-10 gap-8 text-white m-14 p-14 min-h-screen'>
+      <div className='flex-1 flex flex-col' data-aos="zoom-y-out">
+        <img src={image} alt='' className='w-full h-auto object-cover rounded-full'></img>
         <div className='flex justify-center gap-4 mt-5' data-aos="zoom-y-out">
             <InstagramIcon className='cursor-pointer transition-transform duration-300 hover:scale-110'/>
             <XIcon className='cursor-pointer transition-transform duration-300 hover:scale-110'/>

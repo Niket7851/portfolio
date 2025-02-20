@@ -24,7 +24,7 @@ const Featured = () => {
           }, []);
 
   return (
-    <div className='featured flex flex-col justify-center text-center m-auto w-1/2 mt-14 pt-10 flex-wrap ' data-aos="zoom-y-out">
+    <div className='featured flex flex-col justify-center text-center m-auto w-1/2 mt-14 pt-10 flex-wrap grow ' data-aos="zoom-y-out">
         <h1 className='text-6xl font-bold flex-wrap'>Freelance web developer based in India</h1>
         <p className='m-auto mt-6 flex-wrap'>Expert development services by IN-based freelancer for your website needs.</p>
         <div className='m-auto md:mt-12 mt-2 flex flex-col md:flex-row item-center'>
