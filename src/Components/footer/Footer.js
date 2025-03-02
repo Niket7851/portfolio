@@ -15,10 +15,9 @@ const Footer = () => {
   ];
   
   const socialLinks = [
-    { icon: <GitHubIcon fontSize="medium" />, url: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: <LinkedInIcon fontSize="medium" />, url: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: <TwitterIcon fontSize="medium" />, url: 'https://twitter.com/yourusername', label: 'Twitter' },
-    { icon: <EmailIcon fontSize="medium" />, url: 'mailto:your.email@example.com', label: 'Email' }
+    { icon: <GitHubIcon fontSize="medium" />, url: 'https://github.com/Niket7851', label: 'GitHub' },
+    { icon: <LinkedInIcon fontSize="medium" />, url: 'www.linkedin.com/in/niket-shukla-906917254', label: 'LinkedIn' },
+    { icon: <EmailIcon fontSize="medium" />, url: 'mailto:niketshukla01@gmail.com', label: 'Email' }
   ];
 
   const scrollToSection = (sectionId) => {

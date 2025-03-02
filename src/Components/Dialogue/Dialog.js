@@ -32,7 +32,6 @@ const Dialog = ({ open, handelOpen }) => {
         form.current,
         'dD3HOm7WbZe4jg-T5'       // Replace with your public key
       );
-      console.log('EmailJS SUCCESS:', result.text);
     } catch (error) {
       console.error('EmailJS FAILED:', error.text);
     }
@@ -45,8 +44,6 @@ const Dialog = ({ open, handelOpen }) => {
     try {
       // Send form data to your backend
       const response = await axios.post('http://localhost:8000/user/message', data);
-      console.log('Backend Response:', response.data);
-
       // After backend call succeeds, send the email using EmailJS
       await sendEmail();
 

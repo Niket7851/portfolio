@@ -25,6 +25,13 @@ const Featured = () => {
         });
     }, []);
 
+    const scrollToSection = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
         <div className='featured px-4 flex flex-col justify-center text-center mx-auto w-full sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-1/2 mt-6 md:mt-10 lg:mt-14 pt-6 lg:pt-10' data-aos="zoom-y-out">
             <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold'>Freelance web developer based in India</h1>
@@ -56,6 +63,7 @@ const Featured = () => {
                         size='large' 
                         color='white' 
                         endIcon={<AssuredWorkloadIcon/>}
+                        onClick={()=>{scrollToSection('work')}}
                     >
                         My Work
                     </Button>

@@ -65,7 +65,7 @@ const Navbar = () => {
             {menuOpen && (
                 <div className='md:hidden w-full mt-4 flex flex-col items-center'>
                     <div className='content text-xl flex flex-col items-center gap-y-4 cursor-pointer w-full'>
-                         <button onClick={() => scrollToSection('/')}>Home</button>
+                         <button onClick={() => scrollToSection('/?')}>Home</button>
         <button onClick={() => scrollToSection('about')}>About</button>
         <button onClick={() => scrollToSection('services')}>Services</button>
         <button onClick={() => scrollToSection('work')}>Work</button>
